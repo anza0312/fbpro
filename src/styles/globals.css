@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: black;
+}
+
+.form-group {
+  margin-bottom: 0.3rem;
+}
+.form-group:last-child {
+  margin-bottom: 0;
+}
+.form-control {
+  width: 80%;
+  border: 1px solid black;
+  color: black;
+  padding: 5px;
+}
+select.form-control, input.form-control {
+  height: 30px;
+}
+.form-group-control {
+  width: 39%;
+}
+.form-group-control.three {
+  width: 26%;
+}
+.form-group-control > .form-control {
+  width: 100%;
+}
+
+.text-link {
+  color: #267bc7;
+}
+
+i.icon-star {
+  background-image: url(https://i.ibb.co.com/r6m3x7p/e-IEjy-nku1s.png);
+  background-position: 0 -51px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+i.icon-fire {
+  background-image: url(https://i.ibb.co.com/r6m3x7p/e-IEjy-nku1s.png);
+  background-position: 0 -17px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
