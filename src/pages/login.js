@@ -11,7 +11,7 @@ export default function Login() {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        setSubmited(false);
+        setSubmited(true);
 
         try {
             const checkLogin = await fetch('/api/user/login', {
